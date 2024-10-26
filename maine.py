@@ -25,7 +25,7 @@ class Fireworks(QWidget):
         # Запускаем таймеры
         self.fireworks_timer = QTimer(self)
         self.fireworks_timer.timeout.connect(self.add_firework)
-        self.fireworks_timer.start(1000) 
+        self.fireworks_timer.start(230) 
         
         self.text_timer = QTimer(self)
         self.text_timer.timeout.connect(self.move_text)
